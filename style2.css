@@ -1,0 +1,226 @@
+
+img{
+    height: 280px;
+    width: 270px;
+}
+.informacion{
+    width: 270px;
+    height: 1350px;
+    padding: 20px;
+    background:rgb(73, 85, 121) ;
+    float: left;
+}
+.informacion2{
+    background-color:rgb(255, 251, 235);
+    
+    height: 1389px;
+    
+}
+.comienzo{
+    margin-left: 340px;
+    padding-top: 1cm;
+}
+.datoscontacto{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.habiladades{
+    padding-bottom: 10px;
+}
+.espacio{
+    padding-left: 9cm;
+}
+.informacion3{
+    padding-left: 9cm;
+    padding-top: 1cm;
+}
+
+
+
+.mover3{
+    padding-left: 20px;
+}
+.colocar1{
+    float: left;
+}
+.conocimientos{
+    margin-top: 4cm;
+    padding-left: 9cm;
+}
+.circular-progress-html{
+    width: 12rem;
+    height: 12rem;
+    margin-top: 1cm;
+    margin-left: 35px;
+    border-radius: 50%;
+    
+    position: relative;
+    background: linear-gradient(rgb(255, 251, 235)50%,rgb(73, 85, 121) 50% );
+    transform: rotate(165deg);
+    float: left;
+}
+.circular-progress-html::before{
+    content: "HTML5";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255, 251, 235) content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: rgb(73, 85, 121);
+    text-align: center;
+    line-height: 8rem;
+    transform: rotate(-165deg);
+}
+.circular-progress-html::after{
+    content: "90%";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background:linear-gradient(transparent 50%,rgb(255, 251, 235) 50%);
+    transform: scaleX(1.1) rotate(-165deg);
+    text-align: center;
+    color: rgb(73, 85, 121);
+    line-height: 13rem;
+    
+}
+.circular-progress-css{
+    width: 12rem;
+    height: 12rem;
+    margin-top: 1cm;
+    margin-left: 100px;
+    border-radius: 50%;
+    
+    position: relative;
+    background: linear-gradient(rgb(255, 251, 235)50%,rgb(73, 85, 121) 50% );
+    transform: rotate(140deg);
+    float: left;
+}
+.circular-progress-css::before{
+    content: "CSS";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255, 251, 235) content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: rgb(73, 85, 121);
+    text-align: center;
+    line-height: 8rem;
+    transform: rotate(-140deg);
+}
+.circular-progress-css::after{
+    content: "75%";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background:linear-gradient(transparent 50%,rgb(255, 251, 235) 50%);
+    transform: scaleX(1.1) rotate(-140deg);
+    text-align: center;
+    color: rgb(73, 85, 121);
+    line-height: 13rem;
+    
+}
+.circular-progress-javascript{
+    width: 12rem;
+    height: 12rem;
+    margin-top: 1cm;
+    margin-left: 100px;
+    border-radius: 50%;
+    
+    position: relative;
+    background: linear-gradient(rgb(255, 251, 235)50%,rgb(73, 85, 121) 50% );
+    transform: rotate(160deg);
+    float: left;
+}
+.circular-progress-javascript::before{
+    content: "JS";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255, 251, 235) content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: rgb(73, 85, 121);
+    text-align: center;
+    line-height: 8rem;
+    transform: rotate(-160deg);
+}
+.circular-progress-javascript::after{
+    content: "85%";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background:linear-gradient(transparent 50%,rgb(255, 251, 235) 50%);
+    transform: scaleX(1.1) rotate(-160deg);
+    text-align: center;
+    color: rgb(73, 85, 121);
+    line-height: 13rem;
+}
+.circular-progress-react{
+    width: 12rem;
+    height: 12rem;
+    margin-top: 1cm;
+    margin-left: 100px;
+    border-radius: 50%;
+    
+    position: relative;
+    background: linear-gradient(rgb(255, 251, 235)50%,rgb(73, 85, 121) 50% );
+    transform: rotate(155deg);
+    float: left;
+}
+.circular-progress-react::before{
+    content: "REACT";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255, 251, 235) content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: rgb(73, 85, 121);
+    text-align: center;
+    line-height: 8rem;
+    transform: rotate(-155deg);
+}
+.circular-progress-react::after{
+    content: "80%";
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background:linear-gradient(transparent 50%,rgb(255, 251, 235) 50%);
+    transform: scaleX(1.1) rotate(-155deg);
+    text-align: center;
+    color: rgb(73, 85, 121);
+    line-height: 13rem;
+}
+.hola{
+    margin-left: 9cm;
+}
